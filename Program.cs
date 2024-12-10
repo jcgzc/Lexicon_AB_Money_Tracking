@@ -191,7 +191,7 @@ class Program : IItemStorage
         {
             Console.WriteLine($"{i + 1}. {items[i]}");
         }
-        Console.WriteLine();
+        Console.ReadKey();   
     }
 
     // Sort items by Title, Amount, or Date
